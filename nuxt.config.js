@@ -19,6 +19,7 @@ export default {
     ]
   },
 
+  // PWA Configuration
   pwa: {
     manifest: {
       theme_color: "#000000",
@@ -53,6 +54,7 @@ export default {
     }
   },
 
+  // Workbox Configuration
   workbox: {
     runtimeCaching: [
       {
@@ -63,6 +65,8 @@ export default {
       }
     ]
   },
+
+  target: 'static',
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
